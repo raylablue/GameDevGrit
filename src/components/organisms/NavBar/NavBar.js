@@ -1,54 +1,57 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// Pages
+import About from "../../pages/About/About";
+import Community from "../../pages/Community/Community";
+import Home from "../../pages/Home/Home";
+import Listen from "../../pages/Listen/Listen";
 
 
-function Home() {
-    return <h2>Home</h2>;
-}
-
-function About() {
-    return <h2>About</h2>;
-}
-
-function Users() {
-    return <h2>Users</h2>;
-}
 
 function NavBar() {
     return (
         <Router>
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <Link className="navbar-brand" to="/">Home</Link>
+
+                <button className="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
-                        <li>
-                            <Link to="/about">About</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/community">Community</Link>
                         </li>
-                        <li>
-                            <Link to="/users">Users</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/listen">Listen</Link>
                         </li>
                     </ul>
-                </nav>
+                </div>
+            </nav>
 
-                {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-                <Switch>
-                    <Route path="/about">
-                        <About />
-                    </Route>
-                    <Route path="/users">
-                        <Users />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch>
-            </div>
+            <Switch>
+                <Route path="/about">
+                    <About />
+                </Route>
+                <Route path="/community">
+                    <Community/>
+                </Route>
+                <Route path="/listen">
+                    <Listen/>
+                </Route>
+                <Route path="/">
+                    <Home />
+                </Route>
+            </Switch>
         </Router>
     );
-}
+};
 
 
 export default NavBar;
