@@ -10,6 +10,7 @@ function Home() {
             <div className="container-fluid">
                 <img className="img-fluid" alt="fpo sample banner" src={require("../../../fpo.jpg")}/>
             </div>
+
         </div>
     )
 };
