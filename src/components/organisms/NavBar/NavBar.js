@@ -25,12 +25,12 @@ function NavBar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">About</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/community">Community</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/listen">Listen</Link>
-                        </li>
+                        {/*<li className="nav-item">*/}
+                        {/*    <Link className="nav-link" to="/community">Community</Link>*/}
+                        {/*</li>*/}
+                        {/*<li className="nav-item">*/}
+                        {/*    <Link className="nav-link" to="/listen">Listen</Link>*/}
+                        {/*</li>*/}
                     </ul>
                 </div>
             </nav>

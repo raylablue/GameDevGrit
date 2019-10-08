@@ -9,10 +9,6 @@ function App() {
     <div className="App">
         <NavBar />
 
-      <div className="container-fluid">
-        {/*content here*/}
-      </div>
-
     </div>
   );
 }
