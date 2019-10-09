@@ -1,15 +1,35 @@
 import React from 'react';
 import './App.scss';
-import NavBar from "./components/organisms/NavBar/NavBar";
-
+import About from "./components/pages/About/About";
+import Community from "./components/pages/Community/Community";
+import Listen from "./components/pages/Listen/Listen";
+import Home from "./components/pages/Home/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    <div className="App">
-        <NavBar />
+    <>
+        <Router>
+            <Switch>
+                <Route path="/about">
+                    <About />
+                </Route>
 
-    </div>
+                <Route path="/community">
+                    <Community/>
+                </Route>
+
+                <Route path="/listen">
+                    <Listen/>
+                </Route>
+
+                <Route path="/">
+                    <Home />
+                </Route>
+            </Switch>
+        </Router>
+    </>
   );
 }
 
