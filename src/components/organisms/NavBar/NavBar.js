@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import "./NavBar.scss";
 import "../../../fonts/iceland-v8-latin-regular.woff"
+import "./NavBar.scss";
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary-3">
             <div className="container">
                 <a className="navbar-brand d-flex align-items-center" href="/">
                     <div>

@@ -8,7 +8,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
     return (
-        <>
+        <div className="bg-dark">
             <NavBar />
 
             <div className="container-banner">
@@ -16,7 +16,7 @@ function Home() {
             </div>
 
             <div className="container">
-                <div className="wrapper-card">
+                <div className="wrapper-card bg-primary-2">
 
                     <div className="row">
                         <div className="d-sm-inline-flex">
@@ -56,7 +56,7 @@ function Home() {
                 </div>
             </div>
 
-        </>
+        </div>
     )
 }
 

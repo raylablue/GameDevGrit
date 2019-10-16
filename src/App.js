@@ -1,5 +1,7 @@
 import React from 'react';
+import "./fonts/iceland-v8-latin-regular.woff";
 import './App.scss';
+import "./styles/theme-event.scss"
 import About from "./components/pages/About/About";
 import Community from "./components/pages/Community/Community";
 import Listen from "./components/pages/Listen/Listen";
