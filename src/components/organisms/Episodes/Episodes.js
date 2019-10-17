@@ -7,23 +7,25 @@ class EpisodeLog extends Component {
         this.state = {
             episodes: [],
             isLoading: false,
+            error: null,
          };
     }
 
     async componentDidMount() {
         const episodes = await getEpisodes();
-
         this.setState({episodes} );
-        // this.setState({isLoading: true});
     }
 
 
     render() {
-        const { episodes, isLoading, } = this.state;
+        const { episodes, isLoading, error } = this.state;
+
+        if (error) {
+            return <p>{error.message}</p>
+        }
 
         if (isLoading) {
             return <p>Loading...</p>;
-            console.log("loading happened");
         }
 
         return (
@@ -31,6 +33,9 @@ class EpisodeLog extends Component {
                 {episodes.map(episodes =>
                     <li key={episodes.objectID}>
                         <a href={episodes.url}>{episodes.title}</a>
+                        <a href={episodes.url}>{episodes.datePublished}</a>
+                        <a href={episodes.url}>{episodes.fileUrl}</a>
+                        <a href={episodes.url}>{episodes.description}</a>
                     </li>
                 )}
             </ul>
