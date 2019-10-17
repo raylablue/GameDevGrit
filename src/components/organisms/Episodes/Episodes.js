@@ -1,15 +1,40 @@
 import React, { Component } from 'react';
 
 class EpisodeLog extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            episodes: [],
+            isLoading: false,
+         };
+    }
+
     async componentDidMount() {
         const episodes = await getEpisodes();
 
         this.setState({episodes} );
+        // this.setState({isLoading: true});
     }
+
+
     render() {
+        const { episodes, isLoading, } = this.state;
+
+        if (isLoading) {
+            return <p>Loading...</p>;
+            console.log("loading happened");
+        }
+
         return (
-            <p>use list elements to put episode data here</p>
-        )
+            <ul>
+                {episodes.map(episodes =>
+                    <li key={episodes.objectID}>
+                        <a href={episodes.url}>{episodes.title}</a>
+                    </li>
+                )}
+            </ul>
+        );
     }
 }
 
