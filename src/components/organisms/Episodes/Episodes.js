@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-// the below is still in JS and needs to be refactored to work in react
+class EpisodeLog extends Component {
+    async componentDidMount() {
+        const episodes = await getEpisodes();
+
+        this.setState({episodes} );
+    }
+    render() {
+        return (
+            <p>use list elements to put episode data here</p>
+        )
+    }
+}
 
 const getXmlText = async () => {
     const xml = await fetch("https://anchor.fm/s/9600ce4/podcast/rss");
     return await xml.text();
-}
+};
 
 const getXmlEpisodes = (xml) => {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xml, "application/xml");
     return [...xmlDoc.getElementsByTagName('item')];
-}
+};
 
 const getEpisodes = async () => {
     const xml = await getXmlText();
@@ -29,13 +40,6 @@ const getEpisodes = async () => {
                 .attributes[0]
                 .nodeValue,
         }));
-}
-
-const init = async () => {
-    const episodes = await getEpisodes();
-    console.log(episodes);
 };
 
-init();
-
-export default Episodes;
+export default EpisodeLog;

@@ -3,6 +3,7 @@ import NavBar from "../../organisms/NavBar/NavBar";
 import "./Home.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import EpisodeLog from "../../organisms/Episodes/Episodes";
 
 
 
@@ -14,6 +15,8 @@ function Home() {
             <div className="container-banner">
                 <img className="img-wide" alt="fpo sample banner" src={require("../../../FPObanner.jpg")}/>
             </div>
+
+            <EpisodeLog />
 
             <div className="container">
                 <div className="wrapper-card bg-primary-2">
