@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class EpisodeLog extends Component {
+class EpisodeData extends Component {
     constructor(props) {
         super(props);
 
@@ -29,16 +29,29 @@ class EpisodeLog extends Component {
         }
 
         return (
-            <ul>
+            <div className="container bg-primary-2">
                 {episodes.map(episodes =>
-                    <li key={episodes.objectID}>
-                        <a href={episodes.url}>{episodes.title}</a>
-                        <a href={episodes.url}>{episodes.datePublished}</a>
+                    <body key={episodes.objectID}>
+                        <h2 className="btn-primary" href={episodes.url}>{episodes.title}</h2>
                         <a href={episodes.url}>{episodes.fileUrl}</a>
-                        <a href={episodes.url}>{episodes.description}</a>
-                    </li>
+                    </body>
+
+
                 )}
-            </ul>
+            </div>
+
+                // <ul>
+                //     {episodes.map(episodes =>
+                //         <li key={episodes.objectID}>
+                //             <a href={episodes.url}>{episodes.title}</a>
+                //             <a href={episodes.url}>{episodes.datePublished}</a>
+                //             <a href={episodes.url}>{episodes.fileUrl}</a>
+                //             <a href={episodes.url}>{episodes.description}</a>
+                //         </li>
+                //     )}
+                // </ul>
+
+
         );
     }
 }
@@ -72,4 +85,4 @@ const getEpisodes = async () => {
         }));
 };
 
-export default EpisodeLog;
+export default EpisodeData;
