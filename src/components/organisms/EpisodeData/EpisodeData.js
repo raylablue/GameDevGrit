@@ -31,10 +31,10 @@ class EpisodeData extends Component {
         return (
             <div className="container bg-primary-2">
                 {episodes.map(episodes =>
-                    <body key={episodes.objectID}>
+                    <div key={episodes.objectID}>
                         <h2 className="btn-primary" href={episodes.url}>{episodes.title}</h2>
                         <a href={episodes.url}>{episodes.fileUrl}</a>
-                    </body>
+                    </div>
 
 
                 )}

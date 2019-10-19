@@ -1,0 +1,42 @@
+///* iceland-regular - latin */
+@font-face {
+  font-family: 'Iceland';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Iceland'), local('Iceland-Regular'),
+  url('../../../fonts/iceland-v8-latin-regular.woff') format('woff')
+}
+
+h2 {
+  font-family: Iceland;
+  color: #f2f4f6;
+}
+
+h3 {
+  font-family: Iceland;
+  color: #D28A4A;
+}
+
+p {
+  color: rgba(162, 139, 151, 0.59);
+}
+
+.wrapper-card {
+  margin: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 20px;
+}
+
+.d-sm-inline-flex {
+  size: 200px;
+}
+
+.wrapper-play {
+  background: white;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+

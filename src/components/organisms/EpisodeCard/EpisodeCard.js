@@ -1,4 +1,5 @@
 import React from "react";
+import "./EpisodeCard.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlay} from "@fortawesome/free-solid-svg-icons";
 
@@ -8,15 +9,12 @@ function EpisodeCard() {
             <div className="wrapper-card bg-primary-2">
 
                 <div className="row">
-                    <div className="d-sm-inline-flex">
-                        <img src={require("../../../GDG-LogoIcon.png")}
-                             width="140"
-                             height="140"
-                             className="d-block mr-2"
-                             alt=""/>
-                    </div>
 
                     <div className="col-lg">
+
+                        <div className="wrapper-title">
+                            <h2 className="text-center">Episode Title</h2>
+                        </div>
 
                         <div className="wrapper-play">
                             <div className="size fa-4x">
