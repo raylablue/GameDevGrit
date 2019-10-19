@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../organisms/NavBar/NavBar";
 import EpisodeData from "../../organisms/EpisodeData/EpisodeData";
-import EpisodeCard from "../../organisms/EpisodeCard/EpisodeCard";
-
-
-
 
 function Home() {
     return (
@@ -15,7 +11,7 @@ function Home() {
                 <img className="img-wide" alt="fpo sample banner" src={require("../../../FPObanner.jpg")}/>
             </div>
 
-            <EpisodeCard/>
+            <EpisodeData />
 
         </div>
     )

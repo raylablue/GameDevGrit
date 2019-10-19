@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import EpisodeCard from "../EpisodeCard/EpisodeCard";
 
 class EpisodeData extends Component {
     constructor(props) {
@@ -28,30 +29,20 @@ class EpisodeData extends Component {
             return <p>Loading...</p>;
         }
 
+        const episodeItems = episodes.map(ep =>
+            <EpisodeCard
+                title={ep.title}
+                description={ep.description}
+                datePublished={ep.datePublished}
+                fileUrl={ep.fileUrl}
+                key={ep.title}
+            />
+        );
+
         return (
-            <div className="container bg-primary-2">
-                {episodes.map(episodes =>
-                    <div key={episodes.objectID}>
-                        <h2 className="btn-primary" href={episodes.url}>{episodes.title}</h2>
-                        <a href={episodes.url}>{episodes.fileUrl}</a>
-                    </div>
-
-
-                )}
-            </div>
-
-                // <ul>
-                //     {episodes.map(episodes =>
-                //         <li key={episodes.objectID}>
-                //             <a href={episodes.url}>{episodes.title}</a>
-                //             <a href={episodes.url}>{episodes.datePublished}</a>
-                //             <a href={episodes.url}>{episodes.fileUrl}</a>
-                //             <a href={episodes.url}>{episodes.description}</a>
-                //         </li>
-                //     )}
-                // </ul>
-
-
+            <React.Fragment>
+                {episodeItems}
+            </React.Fragment>
         );
     }
 }
