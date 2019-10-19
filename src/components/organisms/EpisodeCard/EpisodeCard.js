@@ -18,7 +18,7 @@ function EpisodeCard() {
 
                         <div className="wrapper-play">
                             <div className="size fa-4x">
-                                <div className="d-flex justify-content-center">
+                                <div className="d-flex justify-content-center bg-primary-3">
                                     <FontAwesomeIcon icon={faPlay} />
                                 </div>
                             </div>

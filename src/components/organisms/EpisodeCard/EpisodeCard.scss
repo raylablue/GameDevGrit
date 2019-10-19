@@ -1,3 +1,5 @@
+@import "../../../styles/custom/color-schemes/event";
+
 ///* iceland-regular - latin */
 @font-face {
   font-family: 'Iceland';
@@ -22,18 +24,17 @@ p {
 }
 
 .wrapper-card {
-  margin: 30px;
-  margin-left: 60px;
-  margin-right: 60px;
-  padding: 20px;
+  margin: 2em;
+  padding: 2em;
 }
 
-.d-sm-inline-flex {
-  size: 200px;
+.d-flex {
+  color: #D28A4A;;
 }
 
 .wrapper-play {
-  background: white;
+  padding: 1em;
+  background: $primary-3;
 }
 
 .row {
