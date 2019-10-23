@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../styles/theme.scss"
 import "./EpisodeCard.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlay} from "@fortawesome/free-solid-svg-icons";

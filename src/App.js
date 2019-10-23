@@ -1,6 +1,6 @@
 import React from 'react';
 import "./fonts/iceland-v8-latin-regular.woff";
-import "./styles/theme-event.scss"
+import "./styles/theme.scss"
 import './App.scss';
 import About from "./components/pages/About/About";
 import Community from "./components/pages/Community/Community";

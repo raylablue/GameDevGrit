@@ -1,27 +1,5 @@
-@import "../../../styles/custom/color-schemes/event";
+@import "../../../styles/custom/color-schemes/default";
 
-///* iceland-regular - latin */
-@font-face {
-  font-family: 'Iceland';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Iceland'), local('Iceland-Regular'),
-  url('../../../fonts/iceland-v8-latin-regular.woff') format('woff')
-}
-
-h2 {
-  font-family: Iceland;
-  color: #f2f4f6;
-}
-
-h3 {
-  font-family: Iceland;
-  color: $info;
-}
-
-p {
-  color: rgba(162, 139, 151, 0.59);
-}
 
 .wrapper-card {
   margin: 2em;
@@ -39,5 +17,9 @@ p {
 
 .row {
   padding-bottom: 20px;
+}
+
+h2.text-center {
+  color: #f2f4f6;
 }
 
