@@ -1,8 +1,8 @@
 import React from "react";
 import "../../../styles/theme.scss"
 import "./EpisodeCard.scss";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPlay} from "@fortawesome/free-solid-svg-icons";
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+// import {faPlay} from "@fortawesome/free-solid-svg-icons";
 
 function EpisodeCard({
    title,
@@ -23,15 +23,17 @@ function EpisodeCard({
                         </div>
 
                         <div className="wrapper-play">
-                            <div className="size fa-4x">
-                                <div className="d-flex justify-content-center bg-primary-3">
-                                    <FontAwesomeIcon icon={faPlay} />
-                                </div>
-                            </div>
+                            <audio
+                                controls preload='auto'
+                                className="audio_volume_only">
+                                <source
+                                    src={fileUrl}
+                                    type='audio/mp3'/>
+                            </audio>
                         </div>
 
                         <a
-                            className="btn btn-primary btn-lg btn-block"
+                            className="btn btn-primary-3 btn-lg btn-block"
                             href={fileUrl}
                             target="_blank"
                             rel="noopener noreferrer"

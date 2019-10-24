@@ -12,7 +12,7 @@
 
 .wrapper-play {
   padding: 1em;
-  background: $primary-3;
+  background: $primary;
 }
 
 .row {
@@ -27,4 +27,12 @@ h2.text-center {
 
 .wrapper-description {
   overflow-wrap: break-word;
+}
+
+figure {
+  margin: 0;
+}
+
+.audio_volume_only {
+  width: 100%;
 }
