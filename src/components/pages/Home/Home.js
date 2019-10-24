@@ -7,10 +7,7 @@ function Home() {
     return (
         <div className="bg-primary">
             <NavBar />
-
-            <div className="container-banner">
                 <img className="img-wide" alt="fpo sample banner" src={require("../../../FPObanner.jpg")}/>
-            </div>
 
             <EpisodeData />
 
