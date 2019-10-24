@@ -23,7 +23,7 @@
 
 h3 {
   font-family: Iceland;
-  color: $info;
+  color: $info-2;
 }
 
 p {
@@ -32,4 +32,9 @@ p {
 
 a {
   color: $link;
+}
+
+.wrapper-about {
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
