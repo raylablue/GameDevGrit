@@ -6,7 +6,7 @@ import About from "./components/pages/About/About";
 import Community from "./components/pages/Community/Community";
 import Listen from "./components/pages/Listen/Listen";
 import Home from "./components/pages/Home/Home";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
