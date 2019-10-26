@@ -1,8 +1,8 @@
 import React from "react";
 import "../../../styles/theme.scss"
 import "./EpisodeCard.scss";
-// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-// import {faPlay} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faDownload, faHeadphones} from "@fortawesome/free-solid-svg-icons";
 
 function EpisodeCard({
    title,
@@ -19,7 +19,10 @@ function EpisodeCard({
                     <div className="col-lg">
 
                         <div className="wrapper-title">
-                            <h2 className="text-center">{title}</h2>
+                            <h2 className="display-4 text-center">
+                                <FontAwesomeIcon icon={faHeadphones} />
+                                {title}
+                            </h2>
                         </div>
 
                         <div className="wrapper-play">
@@ -38,7 +41,8 @@ function EpisodeCard({
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Download
+                            <span className="mr-2">Download</span>
+                            <FontAwesomeIcon className="fa-1x" icon={faDownload} />
                         </a>
 
                     </div>
