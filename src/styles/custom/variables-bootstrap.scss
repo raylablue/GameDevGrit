@@ -72,8 +72,8 @@ $colors: map-merge(
 
 
 $secondary:     $gray-600;
-$success:       $green;
-$info:          $cyan;
+$success:       #566ce3;
+$info:          #4fbcff;
 $warning:       $yellow;
 $danger:        $red;
 $light:         $gray-100;
@@ -170,9 +170,9 @@ $body-color:                $gray-700;
 //
 // Style anchor elements.
 
-$link-color:                theme-color("primary");
+$link-color:                theme-color("info");
 $link-decoration:           none;
-$link-hover-color:          darken($link-color, 15%);
+$link-hover-color:          lighten($link-color, 15%);
 $link-hover-decoration:     none;
 
 // Paragraphs
@@ -280,7 +280,7 @@ $headings-margin-bottom:      1rem;
 $headings-font-family:        inherit;
 $headings-font-weight:        600;
 $headings-line-height:        1.2;
-$headings-color:              $gray-900;
+$headings-color:              $gray-200;
 
 $display1-size:               6rem;
 $display2-size:               5.5rem;
