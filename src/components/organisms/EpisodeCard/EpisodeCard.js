@@ -14,17 +14,18 @@ function EpisodeCard({
         <div className="container">
             <div className="wrapper-card bg-primary-2">
 
+                {/*Episode Title*/}
+                <div className="wrapper-title">
+                    <h2 className="display-4 text-center">
+                        <FontAwesomeIcon icon={faHeadphones} />
+                        {title}
+                    </h2>
+                </div>
+
                 <div className="row">
 
-                    <div className="col-lg">
-
-                        <div className="wrapper-title">
-                            <h2 className="display-4 text-center">
-                                <FontAwesomeIcon icon={faHeadphones} />
-                                {title}
-                            </h2>
-                        </div>
-
+                    <div className="col-sm">
+                        {/*Audio Player */}
                         <div className="wrapper-play">
                             <audio
                                 controls preload='auto'
@@ -35,25 +36,31 @@ function EpisodeCard({
                             </audio>
                         </div>
 
-                        <a
-                            className="btn btn-primary-3 btn-lg btn-block"
-                            href={fileUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <span className="mr-2">Download</span>
-                            <FontAwesomeIcon className="fa-1x" icon={faDownload} />
-                        </a>
+                            {/*Download Button*/}
+                            <div className="wrapper-download">
+                                <a
+                                    className="btn btn-primary-3 btn-lg btn-block"
+                                    href={fileUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span className="mr-2">Download</span>
+                                    <FontAwesomeIcon className="fa-1x" icon={faDownload} />
+                                </a>
+                            </div>
 
+                    </div>
+                    {/*Description and Show Notes*/}
+                    <div className="col-sm">
+                        <div className="wrapper-description">
+                            <small>{datePublished}</small>
+                            <h3>Description</h3>
+                            <div dangerouslySetInnerHTML={{__html: description}} />
+                        </div>
                     </div>
                 </div>
 
-                <div className="wrapper-description">
-                    <small>{datePublished}</small>
-                    <h3>Description</h3>
-                    <div dangerouslySetInnerHTML={{__html: description}} />
-                </div>
-            </div>
+            </div> {/*wrapper card*/}
         </div>
     )
 }
