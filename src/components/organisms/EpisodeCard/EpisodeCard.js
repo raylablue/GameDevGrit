@@ -17,7 +17,7 @@ function EpisodeCard({
                 {/*Episode Title*/}
                 <div className="wrapper-title">
                     <h2 className="display-4 text-center">
-                        <FontAwesomeIcon icon={faHeadphones} />
+                        <FontAwesomeIcon className="headphones" icon={faHeadphones} />
                         {title}
                     </h2>
                 </div>
