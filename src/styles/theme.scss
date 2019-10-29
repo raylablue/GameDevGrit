@@ -50,7 +50,26 @@ a {
   display: block;
   justify-content: center;
   align-items: center;
-  margin: 2em;
-  padding: 2em;
+  margin: 0.5em;
   overflow-wrap: break-word;
+}
+
+
+.wrapper-cta {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.d-flex {
+  justify-content: end;
+  margin-bottom: 1em;
+}
+
+.row {
+  margin-top: 1em;
+}
+
+.btn {
+  padding-right: 30px;
+  padding-left:  30px;
 }
