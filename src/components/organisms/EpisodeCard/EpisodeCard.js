@@ -12,7 +12,7 @@ function EpisodeCard({
 }) {
     return (
         <div className="container">
-            <div className="wrapper-card bg-primary-2">
+            <div className="wrapper-card bg-primary-2 mt-6 py-4 px-4">
 
                 {/*Episode Title*/}
                 <div className="wrapper-title">

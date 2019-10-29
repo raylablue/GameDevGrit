@@ -4,6 +4,10 @@
 @import "custom/color-schemes/default";
 @import "custom/variables-bootstrap";
 @import "custom/variables-theme";
+
+// Custom variables go here
+$headings-font-family: Iceland;
+
 @import "~bootstrap/scss/bootstrap";
 @import "custom/components";
 
@@ -17,12 +21,10 @@
 }
 
 .h2 {
-  font-family: Iceland;
   color: #f4f4f4;
 }
 
 h3 {
-  font-family: Iceland;
   color: $info;
 }
 
@@ -44,32 +46,4 @@ a {
   justify-content: center;
   align-items: center;
   margin: auto;
-}
-
-.justify-content-center {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: 0.5em;
-  overflow-wrap: break-word;
-}
-
-
-.wrapper-cta {
-  margin-left: 4em;
-  margin-right: 4em;
-}
-
-.d-flex {
-  justify-content: end;
-  margin-bottom: 1em;
-}
-
-.row {
-  margin-top: 1em;
-}
-
-.btn {
-  padding-right: 30px;
-  padding-left:  30px;
 }
