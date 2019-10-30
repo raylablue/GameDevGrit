@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/GameDevGrit/static/css/main.9c240e9e.chunk.css",
-    "main.js": "/GameDevGrit/static/js/main.2b2ac6f2.chunk.js",
-    "main.js.map": "/GameDevGrit/static/js/main.2b2ac6f2.chunk.js.map",
+    "main.css": "/GameDevGrit/static/css/main.11e38e5d.chunk.css",
+    "main.js": "/GameDevGrit/static/js/main.ce951fb2.chunk.js",
+    "main.js.map": "/GameDevGrit/static/js/main.ce951fb2.chunk.js.map",
     "runtime-main.js": "/GameDevGrit/static/js/runtime-main.a09b52b1.js",
     "runtime-main.js.map": "/GameDevGrit/static/js/runtime-main.a09b52b1.js.map",
     "static/css/2.510409cd.chunk.css": "/GameDevGrit/static/css/2.510409cd.chunk.css",
-    "static/js/2.72bd81ee.chunk.js": "/GameDevGrit/static/js/2.72bd81ee.chunk.js",
-    "static/js/2.72bd81ee.chunk.js.map": "/GameDevGrit/static/js/2.72bd81ee.chunk.js.map",
+    "static/js/2.b34cad24.chunk.js": "/GameDevGrit/static/js/2.b34cad24.chunk.js",
+    "static/js/2.b34cad24.chunk.js.map": "/GameDevGrit/static/js/2.b34cad24.chunk.js.map",
     "index.html": "/GameDevGrit/index.html",
-    "precache-manifest.0402ccab5936ba8b565b785ae9184d4e.js": "/GameDevGrit/precache-manifest.0402ccab5936ba8b565b785ae9184d4e.js",
+    "precache-manifest.2747de86606aca9ecd799c4cf7e2445a.js": "/GameDevGrit/precache-manifest.2747de86606aca9ecd799c4cf7e2445a.js",
     "service-worker.js": "/GameDevGrit/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/GameDevGrit/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.9c240e9e.chunk.css.map": "/GameDevGrit/static/css/main.9c240e9e.chunk.css.map",
+    "static/css/main.11e38e5d.chunk.css.map": "/GameDevGrit/static/css/main.11e38e5d.chunk.css.map",
     "static/media/FPObanner.jpg": "/GameDevGrit/static/media/FPObanner.5d5cf7ec.jpg",
     "static/media/App.scss": "/GameDevGrit/static/media/iceland-v8-latin-regular.0a3ffc3a.woff"
   }
