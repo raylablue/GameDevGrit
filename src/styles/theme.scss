@@ -1,0 +1,49 @@
+@import "~bootstrap/scss/functions";
+@import "custom/functions";
+@import "~bootstrap/scss/variables";
+@import "custom/color-schemes/default";
+@import "custom/variables-bootstrap";
+@import "custom/variables-theme";
+
+// Custom variables go here
+$headings-font-family: Iceland;
+
+@import "~bootstrap/scss/bootstrap";
+@import "custom/components";
+
+///* iceland-regular - latin */
+@font-face {
+  font-family: 'Iceland';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Iceland'), local('Iceland-Regular'),
+  url('../fonts/iceland-v8-latin-regular.woff') format('woff')
+}
+
+.h2 {
+  color: #f4f4f4;
+}
+
+h3 {
+  color: $info;
+}
+
+p {
+  color: rgba(226, 197, 189, 1);
+}
+
+a {
+  color: $link;
+}
+
+.wrapper-about {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.img-wide {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
