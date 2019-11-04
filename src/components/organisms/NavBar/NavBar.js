@@ -26,12 +26,9 @@ function NavBar() {
                         <li className="nav-item active">
                             <Link className="nav-link" to="/about">About</Link>
                         </li>
-                        {/*<li className="nav-item">*/}
-                        {/*    <Link className="nav-link" to="/community">Community</Link>*/}
-                        {/*</li>*/}
-                        {/*<li className="nav-item">*/}
-                        {/*    <Link className="nav-link" to="/listen">Listen</Link>*/}
-                        {/*</li>*/}
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Home</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
