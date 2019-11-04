@@ -9,8 +9,6 @@ import Listen from "./components/pages/Listen/Listen";
 import Home from "./components/pages/Home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById('root'));
-
 function App() {
   return (
     <>
