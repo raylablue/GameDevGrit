@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d31827d45abc58ca48f2d132dfdae24c",
+    "revision": "9836c035d09beba4808e800b21c95123",
     "url": "/GameDevGrit/index.html"
   },
   {
-    "revision": "ceeabd05ed9de37da077",
+    "revision": "e8deb4a5776646ff2630",
     "url": "/GameDevGrit/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "2881182373a009766cc1",
+    "revision": "5877d248baa622e5b5c8",
     "url": "/GameDevGrit/static/css/main.11e38e5d.chunk.css"
   },
   {
-    "revision": "ceeabd05ed9de37da077",
-    "url": "/GameDevGrit/static/js/2.2b69f2bc.chunk.js"
+    "revision": "e8deb4a5776646ff2630",
+    "url": "/GameDevGrit/static/js/2.ccb997a1.chunk.js"
   },
   {
-    "revision": "2881182373a009766cc1",
-    "url": "/GameDevGrit/static/js/main.921cd9b6.chunk.js"
+    "revision": "5877d248baa622e5b5c8",
+    "url": "/GameDevGrit/static/js/main.ddc4e7dd.chunk.js"
   },
   {
     "revision": "d5dab05eac58b6160e64",
