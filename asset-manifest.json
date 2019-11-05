@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GameDevGrit/static/css/main.11e38e5d.chunk.css",
+    "main.css": "/GameDevGrit/static/css/main.3382db6b.chunk.css",
     "main.js": "/GameDevGrit/static/js/main.4f5c92a1.chunk.js",
     "main.js.map": "/GameDevGrit/static/js/main.4f5c92a1.chunk.js.map",
     "runtime-main.js": "/GameDevGrit/static/js/runtime-main.a09b52b1.js",
@@ -9,10 +9,10 @@
     "static/js/2.9e688f1d.chunk.js": "/GameDevGrit/static/js/2.9e688f1d.chunk.js",
     "static/js/2.9e688f1d.chunk.js.map": "/GameDevGrit/static/js/2.9e688f1d.chunk.js.map",
     "index.html": "/GameDevGrit/index.html",
-    "precache-manifest.52e8daa1b1a2d8cb97871cdc7ab82b74.js": "/GameDevGrit/precache-manifest.52e8daa1b1a2d8cb97871cdc7ab82b74.js",
+    "precache-manifest.6375027e2e6009df0354743a22e2b83e.js": "/GameDevGrit/precache-manifest.6375027e2e6009df0354743a22e2b83e.js",
     "service-worker.js": "/GameDevGrit/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/GameDevGrit/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.11e38e5d.chunk.css.map": "/GameDevGrit/static/css/main.11e38e5d.chunk.css.map",
+    "static/css/main.3382db6b.chunk.css.map": "/GameDevGrit/static/css/main.3382db6b.chunk.css.map",
     "static/media/FPObanner.jpg": "/GameDevGrit/static/media/FPObanner.5d5cf7ec.jpg",
     "static/media/App.scss": "/GameDevGrit/static/media/iceland-v8-latin-regular.0a3ffc3a.woff"
   }
