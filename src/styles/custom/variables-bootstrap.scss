@@ -73,7 +73,7 @@ $colors: map-merge(
 
 $secondary:     $gray-600;
 $success:       #566ce3;
-$info:          #4fbcff;
+$info:          #92D3FF;
 $warning:       $yellow;
 $danger:        $red;
 $light:         $gray-100;
@@ -172,7 +172,7 @@ $body-color:                $gray-700;
 
 $link-color:                theme-color("info");
 $link-decoration:           none;
-$link-hover-color:          lighten($link-color, 25%);
+$link-hover-color:          lighten($link-color, 15%);
 $link-hover-decoration:     none;
 
 // Paragraphs
