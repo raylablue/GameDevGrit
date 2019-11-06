@@ -8,11 +8,17 @@ function CallToAction() {
 
             <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-5 offset-lg-2 mr-2 mb-4">
-                    <button type="button" className="btn btn-block btn-primary-3 btn-lg align-baseline">
-                        <FontAwesomeIcon className="size fa-4x text-white mr-2 d-none d-lg-inline" icon={faDiscord} />
+                    <button
+                        type="button"
+                        className="btn btn-block btn-primary-3 btn-lg align-baseline"
+                    >
+                        <FontAwesomeIcon
+                            className="size fa-4x text-white mr-2 d-none d-lg-inline"
+                            icon={faDiscord}
+                        />
                         <span className="h1 align-bottom">Join Our Discord</span>
                     </button>
-                    <div className="" />
+                    <div/>
                 </div>
 
                 <div className="col col-lg-3">
