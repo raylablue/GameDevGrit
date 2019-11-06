@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import "../../../fonts/iceland-v8-latin-regular.woff"
 import "../../../styles/theme.scss";
 
-
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg bg-primary-2">
