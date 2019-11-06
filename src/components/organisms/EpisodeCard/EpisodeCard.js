@@ -17,16 +17,16 @@ function EpisodeCard({
                 {/*Episode Title*/}
                 <div className="wrapper-title">
                     <h2 className="display-4 text-center">
-                        <FontAwesomeIcon className="headphones" icon={faHeadphones} />
+                        <FontAwesomeIcon className="headphones mr-3" icon={faHeadphones} />
                         {title}
                     </h2>
                 </div>
 
-                <div className="row">
+                <div className="row pb-20">
 
                     <div className="col-sm">
                         {/*Audio Player */}
-                        <div className="wrapper-play">
+                        <div className="wrapper-play p-2 bg-info-2">
                             <audio
                                 controls preload='auto'
                                 className="audio_volume_only">

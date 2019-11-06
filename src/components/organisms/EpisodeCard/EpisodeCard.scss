@@ -1,40 +1,7 @@
-@import "../../../styles/custom/color-schemes/default";
-
-
-
-
-.d-flex {
-  color: $info;
-}
-
-.wrapper-play {
-  padding: 1em;
-  background: $info-2;
-}
-
-.row {
-  padding-bottom: 20px;
-}
-
-h2.text-center {
-  font-family: Iceland;
-  color: #f4f4f4;
-  overflow-wrap: break-word;
-}
-
 .wrapper-description {
   overflow-wrap: break-word;
-}
-
-figure {
-  margin: 0;
 }
 
 .audio_volume_only {
   width: 100%;
 }
-
-.headphones {
-  margin-right: 10px;
-}
-
