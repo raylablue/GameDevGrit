@@ -12,10 +12,9 @@ function EpisodeCard({
 }) {
     return (
         <div className="container">
-            <div className="wrapper-card bg-primary-2 mt-6 py-4 px-4">
+            <div className="bg-primary-2 mt-6 py-4 px-4">
 
-                {/*Episode Title*/}
-                <div className="wrapper-title">
+                <div>
                     <h2 className="display-4 text-center">
                         <FontAwesomeIcon className="headphones mr-3" icon={faHeadphones} />
                         {title}
@@ -25,10 +24,9 @@ function EpisodeCard({
                 <div className="row pb-20">
 
                     <div className="col-sm">
-                        {/*Audio Player */}
-                        <div className="wrapper-play p-2 bg-info-2">
+                        <div className="p-2 bg-info-2">
                             <audio
-                                controls preload='auto'
+                                controls preload='none'
                                 className="audio_volume_only">
                                 <source
                                     src={fileUrl}
@@ -36,8 +34,7 @@ function EpisodeCard({
                             </audio>
                         </div>
 
-                            {/*Download Button*/}
-                            <div className="wrapper-download">
+                            <div>
                                 <a
                                     className="btn btn-primary-3 btn-lg btn-block"
                                     href={fileUrl}
@@ -50,9 +47,8 @@ function EpisodeCard({
                             </div>
 
                     </div>
-                    {/*Description and Show Notes*/}
                     <div className="col-sm">
-                        <div className="wrapper-description">
+                        <div>
                             <small>{datePublished}</small>
                             <h3>Description</h3>
                             <div dangerouslySetInnerHTML={{__html: description}} />
@@ -60,7 +56,7 @@ function EpisodeCard({
                     </div>
                 </div>
 
-            </div> {/*wrapper card*/}
+            </div>
         </div>
     )
 }
