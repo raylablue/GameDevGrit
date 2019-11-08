@@ -1,9 +1,15 @@
 @import "~bootstrap/scss/functions";
 @import "custom/functions";
+
 @import "~bootstrap/scss/variables";
 @import "custom/color-schemes/default";
 @import "custom/variables-bootstrap";
 @import "custom/variables-theme";
+
+$body-color: #e9e9f2;
+$link-color: $info;
+$body-bg: #11111a;
+$primary: $info;
 
 // Custom variables go here
 $headings-font-family: Iceland;
@@ -18,22 +24,6 @@ $headings-font-family: Iceland;
   font-weight: 400;
   src: local('Iceland'), local('Iceland-Regular'),
   url('../fonts/iceland-v8-latin-regular.woff') format('woff')
-}
-
-.h2 {
-  color: #f4f4f4;
-}
-
-h3 {
-  color: $info;
-}
-
-p {
-  color: rgba(226, 197, 189, 1);
-}
-
-a {
-  color: $link;
 }
 
 .wrapper-about {

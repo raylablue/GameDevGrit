@@ -15,8 +15,11 @@ function EpisodeCard({
             <div className="bg-primary-2 mt-6 py-4 px-4">
 
                 <div>
-                    <h2 className="display-4 text-center">
-                        <FontAwesomeIcon className="headphones mr-3" icon={faHeadphones} />
+                    <h2 className="display-4 text-center text-white">
+                        <FontAwesomeIcon
+                            className="headphones mr-3"
+                            icon={faHeadphones}
+                        />
                         {title}
                     </h2>
                 </div>
@@ -42,15 +45,18 @@ function EpisodeCard({
                                     rel="noopener noreferrer"
                                 >
                                     <span className="mr-2">Download</span>
-                                    <FontAwesomeIcon className="fa-1x" icon={faDownload} />
+                                    <FontAwesomeIcon
+                                        className="fa-1x"
+                                        icon={faDownload}
+                                    />
                                 </a>
                             </div>
 
                     </div>
                     <div className="col-sm">
                         <div>
-                            <small>{datePublished}</small>
-                            <h3>Description</h3>
+                            <small className="text-gray">{datePublished}</small>
+                            <h3 className="text-info">Description</h3>
                             <div dangerouslySetInnerHTML={{__html: description}} />
                         </div>
                     </div>

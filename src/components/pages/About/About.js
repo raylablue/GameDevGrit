@@ -4,7 +4,7 @@ import "../../../styles/theme.scss";
 
 function About() {
     return (
-        <div className="bg-primary">
+        <div>
             <NavBar />
             <div className="container">
                 <div className="py-3">

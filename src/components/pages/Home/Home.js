@@ -6,7 +6,7 @@ import CallToAction from "../../organisms/CallToAction/CallToAction";
 
 function Home() {
     return (
-        <div className="bg-primary">
+        <div>
             <NavBar />
             <img className="img-wide" alt="fpo sample banner" src={require("../../../FPObanner.jpg")}/>
             <CallToAction/>
