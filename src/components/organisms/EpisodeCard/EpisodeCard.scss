@@ -1,15 +1,16 @@
-text-info {
-  overflow-wrap: break-word;
-}
+.o-episode-card {
+  &.-lg {
+    // my large overrides go here
+  }
 
-h2 {
-  overflow-wrap: break-word;
-}
+  //&__title {
+  //  overflow-wrap: break-word;
+  //}
 
-a {
-  overflow-wrap: break-word;
-}
-
-.audio_volume_only {
-  width: 100%;
+  &__content {
+    // Edge case, avoid this when you reasonably can
+    a {
+      overflow-wrap: break-word;
+    }
+  }
 }
