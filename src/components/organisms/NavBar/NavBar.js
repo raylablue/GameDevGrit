@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg bg-primary-2">
             <div className="container">
-                <a className="navbar-brand d-flex align-items-center nav-link" href="/">
+                <div className="navbar-brand d-flex align-items-center">
                     <div>
                         <img src={require("../../../GDG-LogoIcon.png")}
                              width="50"
@@ -18,7 +18,7 @@ function NavBar() {
                     <div>
                         <span className="h2 d-block mb-0">Game Dev Grit Podcast</span>
                     </div>
-                </a>
+                </div>
 
                 <div className="navbar-collapse">
                     <ul className="navbar-nav ml-auto">
