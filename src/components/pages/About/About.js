@@ -2,7 +2,6 @@ import React from "react";
 import "./About.scss"
 import NavBar from "../../organisms/NavBar/NavBar";
 import "../../../styles/theme.scss";
-import Footer from "../../organisms/Footer/Footer";
 
 function About() {
     return (
@@ -18,9 +17,7 @@ function About() {
 </p>
                 </div>
             </div>
-            <Footer />
         </div>
-
     )
 };
 

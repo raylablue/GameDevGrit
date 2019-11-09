@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg bg-primary-2">
             <div className="container">
-                <a className="navbar-brand d-flex align-items-center" href="/">
+                <a className="navbar-brand d-flex align-items-center nav-link" href="/">
                     <div>
                         <img src={require("../../../GDG-LogoIcon.png")}
                              width="50"
@@ -22,11 +22,11 @@ function NavBar() {
 
                 <div className="navbar-collapse">
                     <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Episodes</Link>
+                        </li>
                         <li className="nav-item active">
                             <Link className="nav-link" to="/about">About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/">Home</Link>
                         </li>
                     </ul>
                 </div>

@@ -4,7 +4,6 @@ import NavBar from "../../organisms/NavBar/NavBar";
 import EpisodeData from "../../organisms/EpisodeData/EpisodeData";
 import "../../../styles/theme.scss";
 import CallToAction from "../../organisms/CallToAction/CallToAction";
-import Footer from "../../organisms/Footer/Footer";
 import Banner from './gdg-banner.png';
 
 function Home() {
@@ -18,8 +17,6 @@ function Home() {
             />
             <CallToAction/>
             <EpisodeData />
-            <Footer/>
-
         </div>
     )
 }
