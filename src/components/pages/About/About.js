@@ -2,6 +2,7 @@ import React from "react";
 import "./About.scss"
 import NavBar from "../../organisms/NavBar/NavBar";
 import "../../../styles/theme.scss";
+import Footer from "../../organisms/Footer/Footer";
 
 function About() {
     return (
@@ -15,9 +16,9 @@ function About() {
 
                         Gravida quis blandit turpis cursus in hac habitasse platea. Morbi tristique senectus et netus et malesuada fames ac. Id eu nisl nunc mi ipsum faucibus vitae. Velit aliquet sagittis id consectetur purus. Enim praesent elementum facilisis leo vel fringilla. Nulla aliquet enim tortor at auctor urna nunc id. Eu feugiat pretium nibh ipsum consequat nisl. Amet venenatis urna cursus eget nunc scelerisque viverra. Ac feugiat sed lectus vestibulum mattis ullamcorper. Fermentum dui faucibus in ornare quam viverra orci sagittis. Arcu non sodales neque sodales ut etiam sit amet nisl. Convallis tellus id interdum velit laoreet. Lacus laoreet non curabitur gravida. Et netus et malesuada fames ac. Ac tincidunt vitae semper quis lectus nulla at. Donec pretium vulputate sapien nec sagittis. Lobortis feugiat vivamus at augue eget.
 </p>
-
                 </div>
             </div>
+            <Footer />
         </div>
 
     )

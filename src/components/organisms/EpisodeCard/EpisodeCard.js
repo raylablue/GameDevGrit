@@ -40,6 +40,7 @@ function EpisodeCard({
                         <a
                             className="btn btn-primary-3 btn-lg btn-block"
                             href={fileUrl}
+                            download="attachment"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -50,7 +51,6 @@ function EpisodeCard({
                             />
                         </a>
                     </div>
-
                 </div>
 
                 <div className="col-md-6 col-lg-8">
@@ -59,6 +59,8 @@ function EpisodeCard({
                     <div
                         className="o-episode-card__content"
                         dangerouslySetInnerHTML={{__html: description}}
+                        target="_blank"
+                        rel="noopener noreferrer"
                     />
                 </div>
             </div>
