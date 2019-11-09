@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.scss"
 import NavBar from "../../organisms/NavBar/NavBar";
 import "../../../styles/theme.scss";
 
@@ -7,7 +8,7 @@ function About() {
         <div>
             <NavBar />
             <div className="container">
-                <div className="py-3">
+                <div className="py-3 p-about__body-text">
                     <h2>About</h2>
                     <p>this is the about page. We're about things and stuff.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non tellus orci. Orci phasellus egestas tellus rutrum tellus. Ornare arcu odio ut sem nulla pharetra diam sit amet. Enim ut sem viverra aliquet eget. Nam libero justo laoreet sit amet. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Morbi tristique senectus et netus et malesuada fames. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Turpis tincidunt id aliquet risus feugiat in ante. Nulla pharetra diam sit amet nisl. Ornare arcu dui vivamus arcu felis. Scelerisque viverra mauris in aliquam sem. A iaculis at erat pellentesque adipiscing. Maecenas accumsan lacus vel facilisis volutpat est velit. Habitasse platea dictumst quisque sagittis purus sit. Vel pharetra vel turpis nunc.<br/>
