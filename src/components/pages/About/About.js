@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss"
 import NavBar from "../../organisms/NavBar/NavBar";
+import Footer from "../../organisms/Footer/Footer";
 import "../../../styles/theme.scss";
 
 function About() {
@@ -17,6 +18,7 @@ function About() {
 </p>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 };

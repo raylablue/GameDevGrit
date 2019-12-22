@@ -5,6 +5,7 @@ import EpisodeData from "../../organisms/EpisodeData/EpisodeData";
 import "../../../styles/theme.scss";
 import CallToAction from "../../organisms/CallToAction/CallToAction";
 import Banner from './gdg-banner.png';
+import Footer from "../../organisms/Footer/Footer";
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
             />
             <CallToAction/>
             <EpisodeData />
+            <Footer />
         </div>
     )
 }
