@@ -7,7 +7,8 @@ function Footer() {
                 <div className="col-md-4">
                     <img
                         src={require("./EaterFaceAnim.gif")}
-                        width="50px"
+                        width="100"
+                        height="650"
                         className="card-img"
                         alt="..."
                     />
