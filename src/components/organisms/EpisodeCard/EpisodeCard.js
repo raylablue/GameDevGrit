@@ -12,7 +12,11 @@ function EpisodeCard({
         <div className="container bg-primary-2 mt-6 py-4 px-4">
             <div>
                 <h2 className="display-4 text-center text-white text-break">
-                    <img src="Key.png" alt="pixlart key icon"/>
+                    <img
+                        src={require("./Key.png")} alt="pixlart key icon"
+                        width="100"
+                        className="p-2"
+                    />
                     {title}
                 </h2>
             </div>
@@ -40,7 +44,10 @@ function EpisodeCard({
                             rel="noopener noreferrer"
                         >
                             <span className="mr-2">Download</span>
-                            <img src="SaveIcon.png" alt="pixelart save icon" />
+                            <img
+                                src={require("./SaveIcon.png")} alt="pixelart save icon"
+                                width="50"
+                            />
                         </a>
                     </div>
                 </div>

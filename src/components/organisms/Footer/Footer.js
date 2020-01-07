@@ -5,7 +5,12 @@ function Footer() {
         <div className="card mb-3 bg-dark">
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src="EaterFaceAnim.gif" className="card-img" alt="..." />
+                    <img
+                        src={require("./EaterFaceAnim.gif")}
+                        width="50px"
+                        className="card-img"
+                        alt="..."
+                    />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
