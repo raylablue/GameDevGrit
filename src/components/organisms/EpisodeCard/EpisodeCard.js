@@ -1,22 +1,21 @@
 import React from "react";
 import "../../../styles/theme.scss"
 import "./EpisodeCard.scss";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faDownload, faHeadphones} from "@fortawesome/free-solid-svg-icons";
 
 function EpisodeCard({
-   title,
-   description,
-   datePublished,
-   fileUrl,
-}) {
+                         title,
+                         description,
+                         datePublished,
+                         fileUrl,
+                     }) {
     return (
         <div className="container bg-primary-2 mt-6 py-4 px-4">
             <div>
                 <h2 className="display-4 text-center text-white text-break">
-                    <FontAwesomeIcon
-                        className="headphones mr-3"
-                        icon={faHeadphones}
+                    <img
+                        src={require("./Key.png")} alt="pixlart key icon"
+                        width="100"
+                        className="p-2"
                     />
                     {title}
                 </h2>
@@ -45,9 +44,9 @@ function EpisodeCard({
                             rel="noopener noreferrer"
                         >
                             <span className="mr-2">Download</span>
-                            <FontAwesomeIcon
-                                className="fa-1x"
-                                icon={faDownload}
+                            <img
+                                src={require("./SaveIcon.png")} alt="pixelart save icon"
+                                width="50"
                             />
                         </a>
                     </div>
