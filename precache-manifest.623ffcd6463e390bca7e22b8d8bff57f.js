@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0feb7e876cbb7563a396b40b2b752ac",
+    "revision": "681df38db21f0b4f7bd7a03c569cf801",
     "url": "/GameDevGrit/index.html"
   },
   {
