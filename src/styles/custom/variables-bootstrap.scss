@@ -73,8 +73,9 @@ $colors: map-merge(
 
 $secondary:     $gray-600;
 $success:       #566ce3;
-$info:          #4fbcff;
-$warning:       $yellow;
+$info:          #92D3FF;
+$info-2:        #EBB257;
+$warning:       $orange;
 $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-900;
@@ -90,6 +91,7 @@ $theme-colors: map-merge(
     "secondary":  $secondary,
     "success":    $success,
     "info":       $info,
+    "info-2":     $info-2,
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
@@ -172,7 +174,7 @@ $body-color:                $gray-700;
 
 $link-color:                theme-color("info");
 $link-decoration:           none;
-$link-hover-color:          lighten($link-color, 25%);
+$link-hover-color:          lighten($link-color, 15%);
 $link-hover-decoration:     none;
 
 // Paragraphs
